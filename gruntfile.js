@@ -20,12 +20,7 @@ module.exports = function(grunt) {
           dest: 'css',
           ext: '.css',
           extDot: 'last'
-        }],
-        options: {
-          loadPath: ['bower_components/foundation/scss']
-
-
-        }
+        }]
       }
     }
   });
