@@ -1,4 +1,11 @@
-@import "../bower_components/foundation/scss/foundation.scss";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
+
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
+
 
 body {
   background-color: bisque;
