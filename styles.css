@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body > article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  body > article:last-child {
+    margin-right: 0; }
+  body > article .left,
+  body > article .right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    body > article .left:last-child,
+    body > article .right:last-child {
+      margin-right: 0; }
+
+body > aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  body > aside:last-child {
+    margin-right: 0; }
+
+h1 {
+  color: red; }
+
+/*# sourceMappingURL=styles.css.map */
