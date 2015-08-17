@@ -1,0 +1,23 @@
+{
+  "name": "grid-battle",
+  "version": "0.0.0",
+  "homepage": "https://github.com/troelslenda/grids",
+  "authors": [
+    "Troels Lenda <troelslenda@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}

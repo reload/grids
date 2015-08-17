@@ -22,9 +22,8 @@ module.exports = function(grunt) {
           extDot: 'last'
         }],
         options: {
-          includePaths:
-            //require('node-bourbon').includePaths,
-            require('node-neat').includePaths
+          loadPath: ['bower_components/foundation/scss']
+
 
         }
       }
