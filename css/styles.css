@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  color: red;
+}
+
+.page {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.page > article {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 74.4105871005%;
+}
+
+.page > article:last-child {
+  margin-right: 0;
+}
+
+.page > article .left,
+.page > article .right {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+}
+
+.page > article .left:last-child,
+.page > article .right:last-child {
+  margin-right: 0;
+}
+
+.page > aside {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+}
+
+.page > aside:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
